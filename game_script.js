@@ -28,27 +28,17 @@ let choices_object ={
     'paper' : 'draw'
 }
 };
-let t=0;
-function fun(){
-t=10;
-}
-function fun1(){
-window.location.href='C:/rps game/index2.html';
-}
 
 
 let turn=0;
 function checker(input){
-turn++;
-var choices =["rock" , "scissor" ,"paper"];
-document.getElementById("comp_choice").
-innerHTML=
-`Computer choose : <span> ${choices[num].
-toUpperCase()} </span>`;
 
-document.getElementById("user_choice").
-innerHTML =
-`You choose : <span> ${input.toUpperCase()} </span>`;
+var choices =["rock" , "scissor" ,"paper"];
+var num=Math.floor(Math.random()*3);
+
+document.getElementById("comp_choice").innerHTML=`Computer choose : <span> ${choices[num].toUpperCase()} </span>`;
+
+document.getElementById("user_choice").innerHTML =`You choose : <span> ${input.toUpperCase()} </span>`;
 
 document.getElementById("p").
 innerHTML = ``;
@@ -196,7 +186,7 @@ switch(choices_object[input][com_choice]){
         break;
     case 'draw':
         result_ref.style.cssText =
-        "color:rgb(250, 250, 250); text-shadow: 2px 2px 3px rgb(190, 4, 252),-2px 2px 3px rgb(190, 4, 252),-2px -2px 3px rgb(190, 4, 252),2px -2px 3px rgb(190, 4, 252);";
+        "color:rgb(250,250,250);text-shadow: 2px 2px 3px rgb(252, 124, 4),-2px 2px 3px rgb(252, 124, 4),-2px -2px 3px rgb(252, 124, 4),2px -2px 3px rgb(252, 124, 4);"
         result_ref.innerHTML = 'DRAW';
         break;  
 }
@@ -204,56 +194,10 @@ switch(choices_object[input][com_choice]){
 
 document.getElementById("CS").innerHTML = computer;
 document.getElementById("YS").innerHTML = user;
-switch (turn) {
-case 10:
-    
-    document.getElementById("comp_choice").
-    innerHTML=
-    `Your score: <span> ${user} </span>`;
-
-    document.getElementById("user_choice").
-    innerHTML =
-    `Computer score : <span> ${computer} </span>`;
-
-    if(computer<user){
-        result_ref.style.cssText =
-        "color:rgb(250, 250, 250); font-size:30px; text-shadow: 2px 2px 3px rgb(73, 214, 51),-2px 2px 3px rgb(73, 214, 51),-2px -2px 3px rgb(73, 214, 51),2px -2px 3px rgb(373, 214, 51);";
-        result_ref.innerHTML = 'YOU WON THE GAME';}
-    else{
-        result_ref.style.cssText =
-        "color:rgb(250, 250, 250); font-size:30px; text-shadow: 2px 2px 3px rgb(253, 4, 4),-2px 2px 3px rgb(253, 4, 4),-2px -2px 3px rgb(253, 4, 4),2px -2px 3px rgb(253, 4, 4); ";
-        result_ref.innerHTML = 'YOU LOST THE GAME';}
-
-    exit.style.cssText="color: red; background-color:black; font-family:cursive; font-size:21px;";
-    exit.style.borderWidth='2px';
-    exit.style.borderColor='rgb(253, 84, 75)';
-    exit.style.borderRadius='20px';
-    exit.style.pointerEvents='visible';
-    exit.style.cursor='pointer';
-    exit.style.boxShadow='0 0px 10px rgb(252, 62, 62) inset, 0 0px 10px rgb(252, 62, 62),0 0px 10px rgb(252, 62, 62) inset, 0 0px 10px rgb(252, 62, 62)';
-    exit.innerHTML = 'Exit';
-
-    icon1.style.pointerEvents="none";
-
-    icon2.style.pointerEvents="none";
-
-    icon3.style.pointerEvents="none";
-
-
-    let rs=document.getElementById("restart");
-    rs.style.color="black";
-    rs.style.border="none";
-    rs.style.boxShadow="none";
-    rs.style.pointerEvents="none";
-
-    let bb=document.getElementById("backtohome");
-    bb.style.color="black";
-    bb.style.border="none";
-    bb.style.boxShadow="none";
-    bb.style.pointerEvents="none";
-}
 
 }
+
+
 
 
 

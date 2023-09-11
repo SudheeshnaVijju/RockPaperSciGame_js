@@ -1,8 +1,12 @@
+
 .index2Body{
     position: relative;
-    background-image: url('https://www.newsshare.in/wp-content/uploads/4/1920X1080-Wallpaper-102600.jpg');
+    background-image: url('img1.jpg');
     background-size: cover;
-    padding-top: 340px;
+    padding-top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .disDiv{
@@ -42,6 +46,7 @@
     text-align: center;
     height: 300px;
     width:500px;
+
     text-shadow: 2px 2px 3px rgb(190, 4, 252),-2px 2px 3px rgb(190, 4, 252),-2px -2px 3px rgb(190, 4, 252),2px -2px 3px rgb(190, 4, 252);
     font-family: cursive;
     font-size: 20px;
@@ -160,6 +165,10 @@
 }
 #com,#icon_1,#icon_2,#icon_3{
     left: -20%;
+}
+.div2{
+    position: absolute;
+    
 }
 #icon_1,#icon_2,#icon_3{
     cursor:auto;
