@@ -1,0 +1,238 @@
+.index2Body{
+    position: relative;
+    background-image: url('https://www.newsshare.in/wp-content/uploads/4/1920X1080-Wallpaper-102600.jpg');
+    background-size: cover;
+    padding-top: 340px;
+}
+
+.disDiv{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    height: 400px;
+    width: 600px;
+    top: 20%;
+    border-style: solid;
+    border-top: 3px solid white ;
+    border-width:   3px;
+    border-color: rgb(248, 250, 252);
+    background-color: rgb(2, 2, 2);
+    color: rgb(251, 248, 248);
+    box-shadow: 0 0px 15px rgb(195, 0, 255) inset, 0 0px 15px rgb(195, 0, 255),
+                0 0px 15px rgb(195, 0, 255) inset, 0 0px 15px rgb(195, 0, 255);
+}
+.scores{
+    position: absolute;
+    margin-bottom: 50%;
+    margin-left: 50%;
+    text-align: right;
+    font-family: cursive;
+    color: rgb(206, 221, 221);
+    left:27%;
+    text-shadow: 2px 2px 3px rgb(39, 135, 135),-2px 2px 3px rgb(39, 135, 135),-2px -2px 3px rgb(39, 135, 135),2px -2px 3px rgb(39, 135, 135);
+}
+.details1{
+    position: absolute;
+    top: 17.5%;
+    left: 10%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    height: 300px;
+    width:500px;
+    text-shadow: 2px 2px 3px rgb(190, 4, 252),-2px 2px 3px rgb(190, 4, 252),-2px -2px 3px rgb(190, 4, 252),2px -2px 3px rgb(190, 4, 252);
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.details2{
+    position: absolute;
+    top: 27.5%;
+    left: 10%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    height: 300px;
+    width:500px;
+    text-shadow: 2px 2px 3px rgb(190, 4, 252),-2px 2px 3px rgb(190, 4, 252),-2px -2px 3px rgb(190, 4, 252),2px -2px 3px rgb(190, 4, 252);
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.details3{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    height: 300px;
+    width:500px;
+    text-shadow: 2px 2px 3px rgb(190, 4, 252),-2px 2px 3px rgb(190, 4, 252),-2px -2px 3px rgb(190, 4, 252),2px -2px 3px rgb(190, 4, 252);
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.icons{
+    position:absolute;
+    width:550px;
+    height:190px;
+    top:50%;
+    background-color: rgb(6, 6, 6);
+    justify-content: space-around;
+    text-align: center;
+}
+.icon_but1{
+    position: absolute;
+    font-size: 40px;
+    left: 106%;
+    top: 25%;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 35px;
+    border-color: rgb(249, 3, 204);
+    box-shadow: 0 0px 10px rgb(249, 3, 204) inset, 0 0px 10px rgb(249, 3, 204),
+                0 0px 10px rgb(249, 3, 204) inset, 0 0px 10px rgb(249, 3, 204);
+    cursor: pointer;
+}
+.icon_but1:hover{
+    border-color: rgb(251, 250, 251);
+    box-shadow: 0 0px 12px rgb(249, 3, 204) inset, 0 0px 12px rgb(249, 3, 204),
+                0 0px 12px rgb(249, 3, 204) inset, 0 0px 12px rgb(249, 3, 204);
+    
+}
+
+.icon_but2{
+    position: absolute;
+    font-size: 40px;
+    left: 106%;
+    top: 52%;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 35px;
+    border-color: rgb(241, 249, 3);
+    box-shadow: 0 0px 10px rgb(241, 249, 3) inset, 0 0px 10px rgb(241, 249, 3),
+                0 0px 10px rgb(241, 249, 3) inset, 0 0px 10px rgb(241, 249, 3);
+    cursor: pointer;
+}
+.icon_but2:hover{
+    border-color: white;
+    box-shadow: 0 0px 12px rgb(241, 249, 3) inset, 0 0px 12px rgb(241, 249, 3),
+                0 0px 12px rgb(241, 249, 3) inset, 0 0px 12px rgb(241, 249, 3);
+}
+.icon_but3{
+    position: absolute;
+    left: 106%;
+    top: 79%;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 35px;
+    border-color: rgb(3, 138, 249);
+    font-size: 40px;
+    box-shadow: 0 0px 10px rgb(3, 130, 249) inset, 0 0px 10px rgb(3, 138, 249),
+                0 0px 10px rgb(3, 138, 249) inset, 0 0px 10px rgb(3, 138, 249);
+    cursor: pointer;
+}
+.icon_but3:hover{
+    border-color: white;
+    box-shadow: 0 0px 12px rgb(3, 130, 249) inset, 0 0px 12px rgb(3, 138, 249),
+                0 0px 12px rgb(3, 138, 249) inset, 0 0px 12px rgb(3, 138, 249);
+}
+.icon_but_you{
+    position: absolute;
+    left: 105%;
+    top: -4%;
+    height: 85px;
+    width:90px;
+    background-color: black;
+    border-radius: 25px;
+    border-color: rgb(115, 154, 83) ;
+    font-size: 40px;
+     border-width: 4px;
+     pointer-events: none;
+   /* box-shadow: 0 0px 10px rgb(253, 139, 38) inset, 0 0px 10px rgb(253, 139, 38),
+                0 0px 10px rgb(253, 139, 38) inset, 0 0px 10px rgb(253, 139, 38);*/
+}
+#com,#icon_1,#icon_2,#icon_3{
+    left: -20%;
+}
+#icon_1,#icon_2,#icon_3{
+    cursor:auto;
+    pointer-events: none;
+}
+#icon_1 :hover,#icon_2 :hover,#icon_3 :hover{
+    pointer-events: none;
+}
+.fa-solid{
+    color:rgb(254, 253, 254);
+    background-color: rgb(7, 7, 7);
+}
+.fa-brands{
+    background-color: black;
+    color:white;
+}
+.details{
+    margin-top: 30px;
+    text-align: center;
+}
+#exit{
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    height: 50px;
+    width:80px;
+    background-color: black;
+    border-width: 0px;
+    border-radius: 10px;
+    font: 20px;
+    pointer-events:none;
+}
+#restart{
+    position:absolute;
+    left:77%;
+    top:82% ;
+    height: 45px;
+    width:95px;
+    background-color: rgb(8, 8, 8);
+    color:aqua;
+    font-family: cursive;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 0px 10px aqua inset, 0 0px 10px aqua,
+                0 0px 10px aqua inset, 0 0px 10px aqua;
+    border-color: aqua;
+    cursor: pointer;
+}
+#restart:hover{
+    border-color: white;
+    box-shadow: 0 0px 15px aqua inset, 0 0px 15px aqua,
+                0 0px 15px aqua inset, 0 0px 15px aqua ;
+}
+#backtohome{
+    position:absolute;
+    left:8%;
+    top:82% ;
+    height: 45px;
+    width:95px;
+    background-color: rgb(8, 8, 8);
+    color:aqua;
+    font-family: cursive;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 0px 10px aqua inset, 0 0px 10px aqua,
+                0 0px 10px aqua inset, 0 0px 10px aqua;
+    border-color: aqua;
+    cursor: pointer;
+}
+#backtohome:hover{
+    border-color: white;
+    box-shadow: 0 0px 15px aqua inset, 0 0px 15px aqua,
+                0 0px 15px aqua inset, 0 0px 15px aqua ;
+}

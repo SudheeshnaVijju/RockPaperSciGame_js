@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="game_css.css">
+    <script src="https://kit.fontawesome.com/dc6622bbd5.js" crossorigin="anonymous"></script>
+    <title>RpsGame</title>
+</head>
+<body class="index2Body">
+    <div class="disDiv">
+        <div class="details1">
+            <p style="font-size:35px;"><span id="p">Start the Game</span></p>
+            <p id="user_choice"></p>
+        </div>
+        <div class="details2">
+            <p id="comp_choice"></p>
+        </div>
+        <div class="details3">
+            <p id="result"></p>
+        </div>
+        <div class="scores">
+        <p>Computer : <span id="CS">0</span></p>
+        <p>You : <span id="YS">0</span></p>
+        </div>
+            
+            <button class="icon_but_you">
+                <i class="fa-solid fa-user"></i>
+                </button>
+            <button class="icon_but1" id="icon1" onclick="checker('rock')">
+                <i class="fa-solid fa-hand-fist"></i>
+            </button>
+            <button class="icon_but2" id="icon2" onclick="checker('scissor')">
+                <i class="fa-solid fa-hand-peace"></i>
+            </button>
+            <button class="icon_but3" id="icon3" onclick="checker('paper')">
+                <i class="fa-solid fa-hand"></i>
+            </button>
+
+            <button class="icon_but_you" id="com">
+                <i class="fa-brands fa-reddit-alien"></i>
+            </button>
+            <button class="icon_but1" id="icon_1">
+                <i class="fa-solid fa-hand-fist"></i>
+            </button>
+            <button class="icon_but2" id="icon_2">
+                <i class="fa-solid fa-hand-peace"></i>
+            </button>
+            <button class="icon_but3" id="icon_3">
+                <i class="fa-solid fa-hand"></i>
+            </button>
+            <button id="exit" onclick="window.location.href='C:/rps game/index1.html';"><span></span></button>
+            <button id="restart" onclick="window.location.href = 'C:/rps game/index2.html';">Restart</button>
+            <button id="backtohome" onclick="window.location.href='C:/rps game/index1.html';">Back</button>
+        </div>
+    <script src="game_css.css"></script>
+</body>
+</html>
